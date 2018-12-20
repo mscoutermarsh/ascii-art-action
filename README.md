@@ -1,8 +1,8 @@
-# ascii-art-action
+# 🎨 ascii art action
 
 GitHub Action that prints ASCII art text.
 
-## Usage
+## 🖌 Usage
 ```hcl
 action "mscoutermarsh/ascii-art-action" {
   uses = "mscoutermarsh/ascii-art-action@1.0.0"
