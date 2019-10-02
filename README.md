@@ -3,11 +3,10 @@
 GitHub Action that prints ASCII art text.
 
 ## 🖌 Usage
-```hcl
-action "mscoutermarsh/ascii-art-action" {
-  uses = "mscoutermarsh/ascii-art-action@1.0.0"
-  args = "SHIP IT"
-}
+```yml
+- uses: mscoutermarsh/ascii-art-action@master
+  with:
+    text: 'SHIP IT'
 ```
 
 ```
