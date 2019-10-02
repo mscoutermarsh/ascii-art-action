@@ -1,0 +1,15 @@
+name: 'ASCII Art Action'
+description: 'GitHub Action that prints ASCII art text'
+author: 'mscoutermarsh'
+branding:
+  icon: 'file-text'  
+  color: 'green'
+inputs: 
+  text:
+    description: 'Text to asciify'
+    default: ''
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.text }}
